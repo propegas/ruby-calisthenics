@@ -31,9 +31,9 @@ class RockPaperScissors
 			puts "Winner: #{winner(tournament[0], tournament[1])}"
 			tournament = winner(tournament[0], tournament[1])
 			return tournament
-		else  	
-			tournament = winner(tournament_winner(tournament[0]), tournament_winner(tournament[1]))
 		end
+  	tournament_winner(tournament)
+
   end
 
 end

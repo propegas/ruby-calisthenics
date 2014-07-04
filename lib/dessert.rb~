@@ -22,6 +22,6 @@ class JellyBean < Dessert
     # your code here
 		@flavor 	= flavor
 		@calories = 5
-		@name 		= @flavor.to_s + " jelly bean"
+		@name 		= @name.to_s + " jelly bean"
   end
 end

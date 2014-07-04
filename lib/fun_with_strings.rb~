@@ -18,7 +18,7 @@ module FunWithStrings
     # your code here
 		group_array = []
 		text = self.split
-		#text << self
+		text << self
 		group_array = text.group_by { |word| word.downcase.chars.sort}.values
 
 		return group_array

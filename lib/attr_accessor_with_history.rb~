@@ -12,7 +12,7 @@ class Class
 				end
 				prev = @#{attr_name}
 				@#{attr_name} = value
-				@#{attr_name}_history << prev if prev != nil
+				@#{attr_name}_history << prev  if prev != nil
 			end
 
 		

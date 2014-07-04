@@ -27,7 +27,7 @@ class RockPaperScissors
 		puts "++++ #{tournament.flatten.size}" 
 		puts "++++ #{tournament}"
 		puts "++++ #{tournament[0]} vs #{tournament[1]}"
-		if tournament.flatten.size == 4 
+		if tournament.flatten.size <= 4 
 			puts "Winner: #{winner(tournament[0], tournament[1])}"
 			tournament = winner(tournament[0], tournament[1])
 			return tournament
